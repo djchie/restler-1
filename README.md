@@ -108,7 +108,7 @@ In case of malformed content, parsers emit `error` event. Original data returned
 #### parsers.auto
 
 Checks the content-type and then uses parsers.xml, parsers.json or parsers.yaml.
-If the content type isn't recognised it just returns the data untouched.
+If the content type isn't recognized it just returns the data untouched.
 
 #### parsers.json, parsers.xml, parsers.yaml
 
